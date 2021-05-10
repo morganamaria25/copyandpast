@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(133,133,133,0.66);
+    -moz-box-shadow: 0 1px 3px 0 rgba(133,133,133,0.66);
+    box-shadow: 0 1px 3px 0 rgba(133,133,133,0.66);
+    padding: 1em;
+}
+.btn {
+    background-color: #ed2553;
+    border: 1px solid #ed2553;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: .9em;
+    color: #fff;
+    padding: .5em;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #fff;
+    border: 1px solid #ed2553;
+    color: #ed2553;
+}
+#exibeNumero {
+    height: 50px;
+    margin-top: .5em;
+    font-size: 2em;
+}
+p {
+    margin-bottom: 1em;
+}
+textarea {
+    padding: 1em;
+    font-size: 1.5em;
+}
